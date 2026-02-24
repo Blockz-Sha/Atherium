@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetherium Launcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='assets/logo.png') }}" alt="Aetherium Logo" class="logo">
+        <h1>Aetherium</h1>
+        <p>The ultimate game launcher hub</p>
+        <a href="{{ url_for('download') }}" class="btn">Download Now</a>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Track your playtime automatically</li>
+            <li>Dark and light themes</li>
+            <li>Mark your favorite games</li>
+            <li>Fast and lightweight launcher</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Aetherium. All rights reserved.</p>
+    </footer>
+</body>
+</html>
